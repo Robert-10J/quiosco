@@ -10,7 +10,7 @@ const OptionsAdmin: React.FC<Props> = ({ option }) => {
   const { activeOption, handleOptionActive } = useQuiosco()
 
   return (
-    <div className={`${activeOption.id === option.id ? 'bg-amber-300' : ''
+    <div className={`${activeOption?.id === option.id ? 'bg-amber-300' : ''
         } flex items-center gap-2 w-full border-b p-5 hover:bg-amber-200`}
     >
       <Image
