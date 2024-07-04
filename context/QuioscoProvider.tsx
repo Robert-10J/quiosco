@@ -131,7 +131,7 @@ const QuioscoProvider: React.FC<Children> = ({ children }) => {
         date: getDateTime()
       })
 
-      // reset to app
+      // reset states
       setCategorySelectec(categories[0])
       setOrder([])
       setName('')

@@ -7,9 +7,9 @@ export interface Product {
 }
 
 interface Category {
-  id: number;
-  nameCategory: string;
-  icon: string;
+  id: number
+  nameCategory: string
+  icon: string
   products?: Product[]
 }
 
@@ -33,18 +33,18 @@ export interface Props {
 export type Children = Pick<Props, 'children'>
 
 export interface OrdersAPI {
-  idOrder: number;
-  name: string;
-  date: string;
-  total: number;
+  idOrder: number
+  name: string
+  date: string
+  total: number
   order: {
-    id: number;
-    image: string;
-    price: number;
-    amount: number;
-    nameProduct: string;
-  }[];
-  status: boolean;
+    id: number
+    image: string
+    price: number
+    amount: number
+    nameProduct: string
+  }[]
+  status: boolean
 }
 
 export type IdOrder = Pick<OrdersAPI, 'idOrder'>

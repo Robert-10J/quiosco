@@ -18,6 +18,7 @@ const Product: React.FC<Props> = ({ product }) => {
         height={500}
         src={`/assets/img/${image}.jpg`} 
         alt={`Image plate of food ${nameProduct}`}
+        priority={true}
       />
 
       <div className='p-5'>

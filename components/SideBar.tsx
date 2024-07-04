@@ -8,11 +8,12 @@ const SideBar: React.FC = () => {
   return (
     <>
       <Image
-        width={250}
-        height={100}
+        width="0"
+        height="0"
         src="/assets/img/logo.svg"
         alt='Image logo'
-        className='m-2'
+        className='m-2 w-11/12'
+        priority={true}
       />
 
       <nav className="mt-10">

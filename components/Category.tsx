@@ -15,11 +15,11 @@ const Category: React.FC<Props> = ({ category }) => {
       categorySelected?.id === id ? 'bg-amber-300' : ''
     } flex items-center w-full border-b p-5 hover:bg-amber-200`}>
       <Image
-        width={75}
-        height={75}
+        width="0"
+        height="0"
         src={`/assets/img/icono_${icon}.svg`}
         alt={`Icon ${nameCategory}`}
-        className='m-2'
+        className='m-2 w-1/4'
       />
 
       <button
