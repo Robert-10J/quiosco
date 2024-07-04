@@ -27,7 +27,7 @@ const Layout: React.FC<Props> = ({ children, page='' }) => {
   return (
     <>
       <Head>
-        <title>Café - {page}</title>  
+        <title>{`Café - ${page}`}</title>  
         <meta name='description' content='Quiosco Coffe Shop'/>
       </Head> 
 
